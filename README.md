@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
+## Steps to reproduce issue
+
+- Run `npm run build`
+- Run `npm run analyze`
+- on served page, ensure that `Show content of concatenated modules`  is enabled
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
